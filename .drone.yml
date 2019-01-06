@@ -7,3 +7,8 @@ pipeline:
     commands:
       - npm install
       - npm run dist
+  publish:
+    image: plugin/docker
+    repo: CJTSAJ/drone
+    tags: ["latest", "v2"]
+    dockerfile: Dockerfile
