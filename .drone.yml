@@ -1,8 +1,8 @@
 workspace:
-	base: /test
-	path: src/github.com/CJTSAJ/drone
+  base: /test
+  path: src/github.com/CJTSAJ/drone
 pipeline:
-	build:
-		image: node:latest
-		commands:
-			- echo "npm install"
+  build:
+    image: node:latest
+    commands:
+      - echo "npm install"
