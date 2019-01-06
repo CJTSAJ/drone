@@ -3,5 +3,5 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './components/Main';
 
-// Render the main component into the dom
+// Render the main component into the dom sefesfasdad
 ReactDOM.render(<App />, document.getElementById('app'));
