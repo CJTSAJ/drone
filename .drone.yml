@@ -5,4 +5,5 @@ pipeline:
   build:
     image: node:latest
     commands:
-      - echo "npm install"
+      - npm install
+      - npm run serve
