@@ -5,9 +5,8 @@ pipeline:
   build:
     image: node:latest
     commands:
-      - npm install -g npm
       - npm install
-      - npm run dist
+      - npm run build
   publish:
     image: plugins/docker
     repo: cjtsaj/drone
