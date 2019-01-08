@@ -9,6 +9,6 @@ pipeline:
       - npm run dist
   publish:
     image: plugins/docker
-    repo: CJTSAJ/drone
+    repo: cjtsaj/drone
     tags: ["latest", "v2"]
     dockerfile: Dockerfile
